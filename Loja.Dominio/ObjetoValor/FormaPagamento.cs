@@ -10,7 +10,6 @@ namespace Loja.Dominio.ObjetoValor
         public int Id { get; set; }
         public string Nome { get; set; }
         public string Descricao { get; set; }
-
         public bool Boleto
         {
             get { return Id == (int)TipoFormaPagamentoEnum.Boleto; }
