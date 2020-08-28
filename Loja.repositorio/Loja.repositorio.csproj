@@ -13,8 +13,4 @@
     <ProjectReference Include="..\Loja.Dominio\Loja.Dominio.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Repositorios\Config\" />
-  </ItemGroup>
-
 </Project>

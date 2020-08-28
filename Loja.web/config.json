@@ -1,0 +1,7 @@
+{
+  "ConnectionString": {
+    "SqlServerConnection": "",
+    "LojaDb": "server=localhost;uid=root;pwd=63585992;database=LojaDb"
+  }
+
+}
