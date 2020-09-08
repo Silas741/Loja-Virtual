@@ -7,7 +7,7 @@ namespace Loja.Dominio.Entidades
 {
    public abstract class Entidade
     { 
-        public List<string> _MensagemValidacao { get; set; }
+        private List<string> _MensagemValidacao { get; set; }
 
         private  List<string> MensagemValidacao
         {

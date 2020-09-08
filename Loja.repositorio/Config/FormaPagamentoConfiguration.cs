@@ -11,7 +11,9 @@ namespace Loja.Repositorio.Config
     {
         public void Configure(EntityTypeBuilder<FormaPagamento> builder)
         {
-            
+            builder.HasKey(f => f.Id);
+            builder.Property(f => f.Nome).IsRequired().HasMaxLength(50);
+            builder.Property(f => f.Descricao).IsRequired().HasMaxLength(500);
         }
     }
 }

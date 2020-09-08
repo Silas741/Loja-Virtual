@@ -11,7 +11,7 @@ namespace Loja.Dominio.Entidades
         public string Senha { get; set; }
         public string Nome { get; set; }
         public string Sobrenome { get; set; }
-        public ICollection<Pedido> pedidos { get; set; }
+        public virtual ICollection<Pedido> pedidos { get; set; }           
 
         public override void Validate()
         {
